@@ -172,3 +172,38 @@ body {
     color: rgb(106, 204, 60);
 }
 
+/* tema fuego con logo */
+.fuegoLogo {
+    /* color del fondo del header */
+    background-color: rgb(209, 8, 8);
+    display: flex;
+    height: 50px;
+}
+
+.fuegoLogo img {
+    /* font-size: 32px; */
+    /* color: rgb(255, 255, 255); */
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 14px;
+    height: 40px;
+}
+
+.fuegoLogo li {
+    /* color: rgb(124, 163, 34); */
+    display: inline;
+    margin: 0px 5px;
+}
+
+.fuegoLogo a {
+    /* color del enlace sin decoracion */
+    text-decoration: none;
+    color:rgb(223, 81, 56);
+
+}
+
+.fuegoLogo a:hover {
+    /* color cuando se pasa el mouse sobre el enlace */
+    color: rgb(212, 226, 19);
+
+}
