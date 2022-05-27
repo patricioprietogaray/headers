@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* tema agua */
+.agua {
+    /* color del fondo del header */
+    background-color: rgb(14, 161, 219);
+    display: flex;
+    height: 50px;
+}
+
+.agua h2 {
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.agua li {
+    /* color: rgb(124, 163, 34); */
+    display: inline;
+    margin: 0px 5px;
+}
+
+.agua a {
+    /* color del enlace sin decoracion */
+    text-decoration: none;
+    color: rgb(13, 3, 70);
+}
+
+.agua a:hover {
+    /* color cuando se pasa el mouse sobre el enlace */
+    color:rgb(4, 19, 223);
+}
+
+/* tema tierra */
+.tierra {
+    /* color del fondo del header */
+    background-color: rgb(105, 41, 4);
+    display: flex;
+    height: 50px;
+}
+
+.tierra h2 {
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.tierra li {
+    /* color: rgb(124, 163, 34); */
+    display: inline;
+    margin: 0px 5px;
+}
+
+.tierra a {
+    /* color del enlace sin decoracion */
+    text-decoration: none;
+    color:rgb(202, 121, 14);
+}
+
+.tierra a:hover {
+    /* color cuando se pasa el mouse sobre el enlace */
+    color: rgb(106, 204, 60);
+}
+
+/* fuego */
+.fuego {
+    /* color del fondo del header */
+    background-color: rgb(209, 8, 8);
+    display: flex;
+    height: 50px;
+}
+
+.fuego h2 {
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.fuego li {
+    /* color: rgb(124, 163, 34); */
+    display: inline;
+    margin: 0px 5px;
+}
+
+.fuego a {
+    /* color del enlace sin decoracion */
+    text-decoration: none;
+    color:rgb(223, 81, 56);
+}
+
+.fuego a:hover {
+    /* color cuando se pasa el mouse sobre el enlace */
+    color: rgb(212, 226, 19);
+}
+
+/* tema agua con logo */
+.aguaLogo {
+    /* color del fondo del header */
+    background-color: rgb(14, 161, 219);
+    display: flex;
+    height: 50px;
+}
+
+.aguaLogo img {
+    /* font-size: 32px; */
+    /* color: rgb(255, 255, 255); */
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 14px;
+    height: 40px;
+}
+
+.aguaLogo li {
+    /* color: rgb(124, 163, 34); */
+    display: inline;
+    margin: 0px 5px;
+}
+
+.aguaLogo a {
+    /* color del enlace sin decoracion */
+    text-decoration: none;
+    color: rgb(13, 3, 70);
+
+}
+
+.aguaLogo a:hover {
+    /* color cuando se pasa el mouse sobre el enlace */
+    color:rgb(4, 19, 223);
+}
+
+/* tema tierra con logo */
+.tierraLogo {
+    /* color del fondo del header */
+    background-color: rgb(105, 41, 4);
+    display: flex;
+    height: 50px;
+}
+
+.tierraLogo img {
+    /* font-size: 32px; */
+    /* color: rgb(255, 255, 255); */
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 14px;
+    height: 40px;
+}
+
+.tierraLogo li {
+    /* color: rgb(124, 163, 34); */
+    display: inline;
+    margin: 0px 5px;
+}
+
+.tierraLogo a {
+    /* color del enlace sin decoracion */
+    text-decoration: none;
+    color:rgb(202, 121, 14);
+
+}
+
+.tierraLogo a:hover {
+    /* color cuando se pasa el mouse sobre el enlace */
+    color: rgb(106, 204, 60);
+}
+
