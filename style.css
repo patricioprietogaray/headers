@@ -1,3 +1,13 @@
+/* importar fuente desde google fonts para agua */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+/* importar fuente desde google fonts para tierra*/
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,300&display=swap');
+
+/* importar fuente desde google fonts para fuego*/
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+
 * {
     box-sizing: border-box;
 }
@@ -19,6 +29,7 @@ body {
     color: rgb(255, 255, 255);
     margin-top: 5px;
     margin-left: 10px;
+    font-family: 'Satisfy', cursive;
 }
 
 .agua li {
@@ -31,6 +42,7 @@ body {
     /* color del enlace sin decoracion */
     text-decoration: none;
     color: rgb(13, 3, 70);
+    font-family: 'Satisfy', cursive;
 }
 
 .agua a:hover {
@@ -51,6 +63,7 @@ body {
     color: rgb(255, 255, 255);
     margin-top: 5px;
     margin-left: 10px;
+    font-family: 'Exo', sans-serif;
 }
 
 .tierra li {
@@ -63,6 +76,7 @@ body {
     /* color del enlace sin decoracion */
     text-decoration: none;
     color:rgb(202, 121, 14);
+    font-family: 'Exo', sans-serif;
 }
 
 .tierra a:hover {
@@ -83,6 +97,7 @@ body {
     color: rgb(255, 255, 255);
     margin-top: 5px;
     margin-left: 10px;
+    font-family: 'Fascinate', cursive;
 }
 
 .fuego li {
@@ -95,6 +110,7 @@ body {
     /* color del enlace sin decoracion */
     text-decoration: none;
     color:rgb(223, 81, 56);
+    font-family: 'Fascinate', cursive;
 }
 
 .fuego a:hover {
@@ -129,7 +145,7 @@ body {
     /* color del enlace sin decoracion */
     text-decoration: none;
     color: rgb(13, 3, 70);
-
+    font-family: 'Satisfy', cursive;
 }
 
 .aguaLogo a:hover {
@@ -164,7 +180,7 @@ body {
     /* color del enlace sin decoracion */
     text-decoration: none;
     color:rgb(202, 121, 14);
-
+    font-family: 'Exo', sans-serif;
 }
 
 .tierraLogo a:hover {
@@ -199,7 +215,7 @@ body {
     /* color del enlace sin decoracion */
     text-decoration: none;
     color:rgb(223, 81, 56);
-
+    font-family: 'Fascinate', cursive;
 }
 
 .fuegoLogo a:hover {
